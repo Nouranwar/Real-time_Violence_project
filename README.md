@@ -1,0 +1,2 @@
+ # Real-Time Violence Detection
+ For my graduation project at the Samsung Innovation Campus (SIC) AI Track, I developed a real-time violence detection system designed for smart-city applications. By leveraging MobileNetV2 as a pre-trained CNN for feature extraction, paired with LSTM layers to capture temporal patterns, the model can reliably identify violent events in both CCTV footage and live streams.
