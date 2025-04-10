@@ -6,7 +6,7 @@ Preprocessed and augmented an image dataset with labeled "Violence" and "NonViol
 
 Built a CNN with Conv2D, MaxPooling2D, Dropout, and Dense layers using TensorFlow/Keras
 
-Trained the model on a large dataset of CCTV frames, achieving ~90% validation accuracy
+Trained the model on a large dataset of CCTV frames, achieving ~99% validation accuracy
 
 Visualized performance metrics and saved the trained model for real-time deployment (violence_model.h5)
 
