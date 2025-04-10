@@ -1,2 +1,13 @@
  # Real-Time Violence Detection
- For my graduation project at the Samsung Innovation Campus (SIC) AI Track, I developed a real-time violence detection system designed for smart-city applications. By leveraging MobileNetV2 as a pre-trained CNN for feature extraction, paired with LSTM layers to capture temporal patterns, the model can reliably identify violent events in both CCTV footage and live streams.
+Real-Time Violence Detection (CNN-based CCTV Classification)
+Developed a deep learning model to detect violent activity in CCTV footage using a custom Convolutional Neural Network (CNN).
+
+Preprocessed and augmented an image dataset with labeled "Violence" and "NonViolence" classes using ImageDataGenerator
+
+Built a CNN with Conv2D, MaxPooling2D, Dropout, and Dense layers using TensorFlow/Keras
+
+Trained the model on a large dataset of CCTV frames, achieving ~90% validation accuracy
+
+Visualized performance metrics and saved the trained model for real-time deployment (violence_model.h5)
+
+Designed for smart-city applications such as surveillance monitoring and public safety
